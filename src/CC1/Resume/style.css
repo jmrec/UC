@@ -1,0 +1,158 @@
+html {
+    height: 100%;
+    width: 100%;
+
+    font-family: Cambria, Georgia, Arial;
+    color: white;
+
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+}
+
+div {
+    padding: 20px;
+    max-width: 100%;
+
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+button {
+    font-family: Cambria, Georgia, Arial;
+}
+
+a:visited {
+    color: green;
+  }
+
+a:hover {
+    color: darkgreen;
+}
+
+#imgHamburger {
+    top: 0;
+    margin-top: 10px;
+    margin-left: 5px;
+    position: fixed;
+
+    width: 0.7in;
+}
+
+#imgAppearanceSwitch {
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    position: fixed;
+
+    width: 0.7in;
+}
+
+#divProfile {
+    display: none;
+    float: left;
+
+    position: fixed;
+    width: 1.5in;
+
+    background-color: black;
+    border-radius: 75px;
+}
+
+#imgProfile {
+    max-width: 80%;
+    border-radius: 50%;
+}
+
+img.contact {
+    width: 22%;
+    
+    margin-bottom: 15px;
+
+    transition-duration: 0.2s;
+}
+
+img.contact:hover {
+    width: 35%;
+}
+
+button.profile {
+    display: block;
+
+    transition-duration: 0.2s;
+
+    font-size: 17px;
+    color: black;
+
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+button.profile:hover {
+    font-size: 27px;
+}
+
+#divMainpage {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+
+    float: right;
+    height: 100%;
+    background-color: #bf8480;
+    flex-grow: 1;
+}
+
+img.icon.school {
+    max-width: 40%;
+}
+
+div.floating.education {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div.floating.general {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+div.mainpage.subpage {
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#divAboutme, #divSkills, #divContact {
+    background-color: #36454F;
+}
+
+#divEducation, #divExperience {
+    background-color: #D3D3D3;
+
+    color: white;
+
+    background-image: url(./images/dark_bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#anchorContactLinkedin {
+    color: white;
+}
