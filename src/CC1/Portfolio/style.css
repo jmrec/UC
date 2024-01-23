@@ -1,0 +1,49 @@
+body {
+    background-color: beige;
+
+    font-family: "Cambria", "Times New Roman", serif;
+    font-size: 100%;
+}
+div {
+    margin: 8px;
+}
+hr {
+    padding: 5px;
+    margin: 10px;
+    border-color: black;
+    background-color: #ab618b;
+}
+img {
+    max-height: 500px;
+    max-width: 500px;
+}
+.timeline_event {
+    border-width: 2px;
+    border-style: solid;
+
+    padding: 8px;
+
+    display: inline-block;
+    background-color: powderblue;
+}
+.sub_menu {
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: black;
+    margin: 2px;
+    padding: 3px;
+}
+.description {
+    display: none;
+}
+img:hover + .description {
+    display: block;
+}
+.per_year {
+    border-width: 2px;
+    border-style: solid;
+    
+    margin-bottom: 30px;
+
+    background-color: rgb(219, 203, 218);
+}
